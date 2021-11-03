@@ -1,0 +1,18 @@
+{
+  "name": "rsps-app",
+  "version": "1.0.0",
+  "description": "Ride safe, park safe",
+  "main": "index.js",
+  "scripts": {
+	  "start": "node ./index.js"
+  },
+  "author": "Ivan Mollov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "mqtt": "^4.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
