@@ -38,6 +38,7 @@ const server = app
 	.set('view engine', 'jsx')
 	.engine('jsx', require('express-react-views').createEngine())
 	.get('/', function (request, response) {
+		response.setHeader('Cache-Control', 's-max-age=1, stale-while-revalidate');
 		response.render('Index')
 	})
 	.get('/tracker', function (request, response) {
@@ -51,3 +52,5 @@ const server = app
 		app.locals.port = server.address().port
 		console.log(`Listening on ${app.locals.address}:${app.locals.port}`)
 	})
+
+module.exports = app

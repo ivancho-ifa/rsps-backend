@@ -40,7 +40,7 @@ function TrackerInfo(props) {
 				`}} />
 				<script
 					defer
-					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3sPmsl-m0CJ0rt-RwE2uazvSOqWLnW5k&callback=initMap">
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2_BXuIm1kSqoLvUaKHGr8LNAleYO___M&callback=initMap">
 				</script>
 			</body>
 		</html>
